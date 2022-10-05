@@ -1,0 +1,123 @@
+/* *{
+    margin:0;
+    padding:0;
+} */
+
+body{
+    /* background-color: black; */
+    margin:0;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+}
+p{
+    line-height: 2em;
+}
+hr{
+    border:6px dotted grey;
+    border-bottom:none;
+    width:4%;
+    margin: 100px auto;
+
+}
+a{
+    color:#11999C;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration:none;
+}
+a:hover{
+    color:aliceblue;
+}
+h1{
+    color:#66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;  /* 16px = 100% = 1em = 1rem  */
+    padding-bottom: 10px;
+    margin-top: 50px auto 0 auto;
+    
+}
+h2{
+    color:#66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight:normal;
+}
+h3{
+    color:#11999C;
+    font-family: 'Montserrat', sans-serif;
+}
+.topContainer{
+    background-color:#C3F8FF; 
+    padding-top:100px;
+    position:relative;
+}
+
+.middleContainer{
+    margin: 100px 0;
+}
+
+.bottomContainer{
+    background-color: #66BFBF;
+    padding:50px 0 20px;
+}
+.intro{
+    width: 30%;
+    margin:auto;
+}
+.contact-message{
+    width:40%;
+    margin:40px auto 60px;
+}
+.copyright{
+    color:azure;
+    font-size:0.75rem;
+    padding:20px 0;
+}
+.profile img{
+    border-radius: 100%;
+    height:288px;
+    width: 288px;
+}
+
+.skill-row{
+    /* border:2px solid grey; */
+    margin: 100px auto;
+    text-align:start;
+    width:50%;
+}
+
+.web-development-img{
+    float:left;
+    width:25%;
+    margin-right: 30px;;
+}
+.programming-img{
+    float:right;
+    width:25%;
+    margin-left: 30px;
+}
+.datascience-img{
+    float:left;
+    width:25%;
+    margin-right: 30px;
+}
+
+.topCloud{
+    position:absolute;
+    top:40px;
+    right: 300px;
+}
+
+.bottomCloud{
+    position:absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.btn{
+    background-color:#6FEDD6;
+    border-radius:10px;
+    color:white;
+    padding: 15px 30px;
+    text-decoration: none;
+}

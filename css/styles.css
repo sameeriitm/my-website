@@ -8,6 +8,7 @@ body{
     margin:0;
     text-align:center;
     font-family: 'Merriweather', serif;
+    min-width:400px;
 }
 p{
     line-height: 2em;
@@ -50,15 +51,18 @@ h3{
     background-color:#C3F8FF; 
     padding-top:100px;
     position:relative;
+
 }
 
 .middleContainer{
     margin: 100px 0;
+
 }
 
 .bottomContainer{
     background-color: #66BFBF;
     padding:50px 0 20px;
+
 }
 .intro{
     width: 30%;
@@ -105,12 +109,12 @@ h3{
 .topCloud{
     position:absolute;
     top:40px;
-    right: 300px;
+    right: 10%;
 }
 
 .bottomCloud{
     position:absolute;
-    left: 250px;
+    left: 10%;
     bottom: 300px;
 }
 
@@ -120,4 +124,26 @@ h3{
     color:white;
     padding: 15px 30px;
     text-decoration: none;
+}
+
+@media (max-width:800px) {
+    .topCloud{
+        position:absolute;
+        top:40px;
+        right: 0;
+    }
+    .bottomCloud{
+        position:absolute;
+        left: 0;
+        bottom: 300px;
+    }
+}
+
+@media(max-width:500px){
+    .mountain{
+        width: 70%;
+    }
+    .bottomCloud{
+        display:none;
+    }
 }
